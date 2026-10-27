@@ -1,0 +1,41 @@
+#local
+# def fun1():
+#     a=1
+#     print(a)
+# def fun2():
+#     b=2
+#     print(b)
+# fun1()
+# fun2()
+
+
+
+# enclosed varuiable
+
+# def fun1():
+#     x=1#this is a local variaable and this value is used
+#     def fun2():
+#         print(x)#here the variable is enclosed and it takes the value from func1 since there is no local variable
+
+#     fun2()
+# fun1()
+
+#global variable
+
+# def fun1():
+#     print(x)
+# def fun2():
+#     print(x)
+# x=3  #here a variable is assigned outside the function so it becomes a global variable 
+# fun1()
+# fun2()
+
+#inbuilt function 
+# import math # here import function is used and math library is used
+# print(math.e) here e is used from math
+
+# from math import e  #here we directly take e from math library with help of import 
+# print(e)
+
+
+

@@ -1,0 +1,123 @@
+# #try and except and finally are some functions used 
+# try:
+#     number=int(input("enter the number"))
+#     print(1/number)
+
+# except ZeroDivisionError:
+#     print("you cannot divide with 0")
+
+# except ValueError:
+#     print("enter only numbers")
+
+# except Exception:
+#     print("something went wrong")
+
+
+# finally:
+#     print("do some clean up")
+
+
+#syntax error 
+# try:
+#     print("hello"
+# except SyntaxError:
+#     print("there is an error")
+
+# try:
+#     exec('print("hello"')
+# except SyntaxError:
+#     print("there is a syntax error in the code")
+
+
+#name error
+# try:
+#     print(total)
+# except NameError:
+#     print("the name is not defined")
+
+
+#type error
+# try:
+#     print("1"+1)
+# except TypeError:
+#     print("a string and integer cannot be concatenated")
+
+
+
+# #index error
+# try:
+#     numbers=[1,2,3,4,5]
+#     print(numbers[10])
+# except IndexError:
+#     print("error there is no value for the given index")
+
+
+
+#key error
+
+# try:
+#     student={"name":"swathi"}
+#     print(student["age"])
+# except KeyError:
+#     print("enter the correct key value")
+
+
+#filenotfounderror
+# try:
+#     open("BINU.txt","r")
+# except FileNotFoundError:
+#     print("there is no such file check again")
+
+
+
+
+#import error/ module nott found error
+
+# try:
+#     import maths 
+# except ModuleNotFoundError:
+#     print("the module cannot be found try reinstalling or check again")
+
+
+
+
+
+#import error
+# try:
+#     from math import squareroot
+# except ImportError:
+#     print("there is an import error the square root function does not exsist in math")
+
+
+#attribute error 
+
+
+
+# try:
+#     number=10
+#     print(number.append(8))
+# except AttributeError:
+#     print("there is an attribute error the append function does not exsist for integers")  
+
+
+
+
+
+#run time error
+
+def withdraw(balance,ammount):
+    if ammount>balance:
+        raise RuntimeError("insufficent balance")
+    return balance-ammount
+try:
+    withdraw(500,1000)
+except RuntimeError as e:
+    print(e)
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+bike=("dominar","rtr","ninja","interceptor","speed")
+print(bike)
+print(type(bike))
+# # print(dir(bike))
+# # print(help(bike))
+# print(len(bike))
+# print("ninja" in bike)
+# print(bike.index("dominar"))
+# print(bike.count("dominar"))
+
+# name=("heken")
+# print(type(name)
